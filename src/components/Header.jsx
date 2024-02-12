@@ -11,7 +11,7 @@ const Header = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="/">
-          <img src="/src/assets/Brand.jpeg" alt="" height={60} />
+          <img src="/assets/Brand.jpeg" alt="" height={60} />
         </a>
         <button
           className="navbar-toggler"

@@ -17,7 +17,7 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/src/assets/Brand1.png" alt="" />
+            <img src="/assets/Brand1.png" alt="" />
           </motion.div>
           <motion.div
             className="col-md-4"

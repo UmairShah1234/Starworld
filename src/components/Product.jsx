@@ -8,63 +8,63 @@ const Product = () => {
       name: "Front Loading Garment Processing Washing Machine",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       price: 19.99,
-      image: "/src/assets/FLGPWM.jpg",
+      image: "/assets/FLGPWM.jpg",
     },
     {
       name: "Front Loading Garment Processing Machine With Forward Tilting Arrangement",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/FLGPMWFTA.jpg",
+      image: "/assets/FLGPMWFTA.jpg",
     },
     {
       name: "Fully Automatic Front Loaded Garment Washing / Dyeing Machine",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/FAFLGWDM.jpg",
+      image: "/assets/FAFLGWDM.jpg",
     },
     {
       name: "Side Loading Garment / Textile Processing Washing Machine",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/SLGTPWM.jpg",
+      image: "/assets/SLGTPWM.jpg",
     },
     {
       name: "Side Loading Garment / Textile Processing Washing Machine (Double Door)",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/SLGTPWMDD.jpg",
+      image: "/assets/SLGTPWMDD.jpg",
     },
     {
       name: "Drying Tumbler With Forward Tilting Arrangement",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/DTWFTA.jpg",
+      image: "/assets/DTWFTA.jpg",
     },
     {
       name: "Hydro Extractor ( Centrifuge )",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/HEC.jpg",
+      image: "/assets/HEC.jpg",
     },
     {
       name: "Drying Tumbler",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/DT.jpg",
+      image: "/assets/DT.jpg",
     },
     {
       name: "Drying Tumbler ( High Capacity )",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       price: 29.99,
-      image: "/src/assets/SLGTPWMDD.jpg",
+      image: "/assets/SLGTPWMDD.jpg",
     },
     
   ];
