@@ -1,8 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion";
+import Carousel from "react-multi-carousel";
 import ProjectCard from "./ProjectCard";
+import "react-multi-carousel/lib/styles.css";
+import ProductModal from "./ProductModal";
 
-const Product = () => {
+const ProductCarousel = () => {
   const products = [
     {
       name: "Front Loading Garment Processing Washing Machine",
@@ -66,20 +68,58 @@ const Product = () => {
       price: 29.99,
       image: "/assets/SLGTPWMDD.jpg",
     },
-    
   ];
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
-    <div className="container p-3">
-      <h2 className="text-center text-decoration-underline pb-3">Check Out Our Products</h2>
-      <div className="row">
-        {products.map((product, index) => (
-          <div key={index} className="col-md-4">
-            <ProjectCard product={product} />
+    <div>
+      <section className="skill my-5 py-5" id="skills">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="skill-bx wow zoomIn">
+                <h2 className="pb-3 text-decoration-underline">Our Products</h2>
+                <Carousel
+                  responsive={responsive}
+                  infinite={true}
+                  swipeable={true}
+                  draggable={false}
+                  showDots={true}
+                  className="owl-carousel owl-theme skill-slider shadow"
+                >
+                  {products.map((product, index) => (
+                    <div key={index} className="">
+                      <ProjectCard product={product} />
+                    </div>
+                  ))}
+                </Carousel>
+                <ProductModal />
+              </div>
+            </div>
           </div>
-        ))}
-      </div>
+        </div>
+        <img className="background-image-left" src={"colorSharp"} alt="Image" />
+      </section>
     </div>
   );
 };
 
-export default Product;
+export default ProductCarousel;

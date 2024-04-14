@@ -28,9 +28,9 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="card-body text-center">
-                  <h5 className="card-title">Service 1</h5>
+                  <h5 className="card-title">System Counseling</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Expert guidance for optimizing operations.
                   </p>
                 </div>
               </motion.div>
@@ -48,9 +48,9 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="card-body text-center">
-                  <h5 className="card-title">Service 1</h5>
+                  <h5 className="card-title">GPM</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Tailored machinery for efficient garment finishing.
                   </p>
                 </div>
               </motion.div>
@@ -68,9 +68,9 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="card-body text-center">
-                  <h5 className="card-title">Service 1</h5>
+                  <h5 className="card-title">Installation</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Seamless setup and operation by highly qualified engineers.
                   </p>
                 </div>
               </motion.div>
@@ -88,9 +88,9 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="card-body text-center">
-                  <h5 className="card-title">Service 1</h5>
+                  <h5 className="card-title">Design</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Customized solutions from conception to execution.
                   </p>
                 </div>
               </motion.div>
@@ -108,9 +108,9 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="card-body text-center">
-                  <h5 className="card-title">Service 1</h5>
+                  <h5 className="card-title">Training</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Comprehensive instruction for efficient machine operation.
                   </p>
                 </div>
               </motion.div>
@@ -128,9 +128,9 @@ const Services = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="card-body text-center">
-                  <h5 className="card-title">Service 1</h5>
+                  <h5 className="card-title">Equipment</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Manufacturing of ovens, dryers, roasters etc for diverse industries 
                   </p>
                 </div>
               </motion.div>
