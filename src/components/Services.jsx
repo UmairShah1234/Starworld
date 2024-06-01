@@ -14,7 +14,7 @@ const Services = () => {
           >
             Our Services
           </motion.h2>
-          <div className="row border">
+          <div className="row">
             <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12 text-center">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"

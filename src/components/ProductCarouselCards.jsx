@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const ProductCarouselCards = ({ productImage }) => {
   return (
@@ -7,7 +8,19 @@ const ProductCarouselCards = ({ productImage }) => {
         <img src={productImage} className="card-img-top" alt="..." />
       </div>
       <div className="text-center d-flex justify-content-center">
-        <p className=" btn btn-outline-primary rounded-0">Inquire</p>
+        <Link
+          to="homesection"
+          className=" btn btn-primary text-light rounded-0 m-1"
+          smooth={true}
+          onClick={() => {
+            const element = document.getElementById("contactSection");
+            element?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
+          Inquire
+        </Link>
       </div>
     </div>
   );
