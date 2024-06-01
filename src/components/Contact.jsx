@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { forwardRef, useState } from "react";
 import { motion } from "framer-motion";
 
-const Contact = () => {
+const Contact = forwardRef((prop, ref) => {
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
   const [showErrorAlert, setShowErrorAlert] = useState(false);
   const [formData, setFormData] = useState({
@@ -37,7 +37,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="bg-light  p-3">
+    <div className="bg-light  p-3" id="contactSection">
       {showSuccessAlert && (
         <div
           className="alert alert-success alert-dismissible fade show"
@@ -147,6 +147,6 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Contact;

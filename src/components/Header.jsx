@@ -3,16 +3,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
 const Header = () => {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const offsetTop = element.offsetTop;
-      window.scrollTo({
-        top: offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
   return (
     <motion.nav
       className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow"
@@ -47,7 +37,12 @@ const Header = () => {
                 to="homesection"
                 className="nav-link"
                 smooth={true}
-                // onClick={scrollToSection("homesection")}
+                onClick={() => {
+                  const element = document.getElementById("heroSection");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
               >
                 <span className="underline-on-hover">Home</span>
               </Link>
@@ -61,7 +56,12 @@ const Header = () => {
                 to="aboutsection"
                 className="nav-link"
                 smooth={true}
-                // onClick={scrollToSection("aboutsection")}
+                onClick={() => {
+                  const element = document.getElementById("aboutSection");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
               >
                 <span className="underline-on-hover">About</span>
               </Link>
@@ -74,7 +74,12 @@ const Header = () => {
               <Link
                 to="servicessection"
                 className="nav-link"
-                // onClick={scrollToSection("servicessection")}
+                onClick={() => {
+                  const element = document.getElementById("serviceSection");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
               >
                 <span className="underline-on-hover">Services</span>
               </Link>
@@ -87,7 +92,12 @@ const Header = () => {
               <Link
                 className="nav-link"
                 to="productsection"
-                // onClick={scrollToSection("productsection")}
+                onClick={() => {
+                  const element = document.getElementById("productSection");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
               >
                 <span className="underline-on-hover">Products</span>
               </Link>
@@ -100,7 +110,12 @@ const Header = () => {
               <Link
                 className="nav-link"
                 to="contactsection"
-                // onClick={scrollToSection("contactsection")}
+                onClick={() => {
+                  const element = document.getElementById("contactSection");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
               >
                 <span className="underline-on-hover">Contact</span>
               </Link>

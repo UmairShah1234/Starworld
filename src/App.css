@@ -125,7 +125,12 @@
   /* background: radial-gradient(circle, #007bff, #000, #fff); */
   background: radial-gradient(circle, #fff, #6fa8dc);
 }
-
+@media (max-width: 768px) {
+  .hero-img-top  {
+    height: auto;
+    width: 100%;
+  }
+}
 .nav-link{
   cursor: pointer;
 }

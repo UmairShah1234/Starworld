@@ -1,41 +1,48 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 import "./ProjectCard.css";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { ProductContext } from "../context/ProductProvider";
 
 const ProjectCard = ({ product }) => {
-  // const { setSingleProduct } = useContext(ProductContext);
-  // setSingleProduct(product);
-
   return (
     <>
       <motion.div
-        className="card product-card text-center"
-        whileHover={{ scale: 1.05 }}
-        transition={{ duration: 0.2 }}
+        className="card m-1"
+        whileHover={{
+          scale: 1.1,
+          boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+        }}
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
       >
-        <div className="card-img-container">
-          <img
-            src={product.image}
-            className="card-img-top"
-            alt={product.name}
-          />
+        <div className="p-3 border  text-center">
+          <img src={product.image} className="card-img-top" alt="..." />
         </div>
         <div className="card-body">
-          <h5 className="card-title">
-            {product.name.length > 25
-              ? product.name.substring(0, 25) + "..."
-              : product.name}
-          </h5>
+          <p className="card-title">
+            <strong>{product.name}</strong>
+          </p>
+          <p className="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas
+            accusantium distinctio. Ipsum dolore, facere repellat molestias
+            veniam dolores pariatur doloremque laboriosam, iure ut numquam
+            aperiam tempora unde eos? Reprehenderit!
+          </p>
 
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+          <Link
+            to="homesection"
+            className=" btn btn-primary text-light rounded-0"
+            smooth={true}
+            onClick={() => {
+              const element = document.getElementById("contactSection");
+              element?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
           >
-            Buy Now
-          </button>
+            Inquire
+          </Link>
         </div>
       </motion.div>
     </>

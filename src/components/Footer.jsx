@@ -12,50 +12,94 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <motion.div
-            className="col-md-4"
+            className="col-md-4 text-center mb-1"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/assets/Brand1.png" alt="" />
+            <img src="/assets/Brand.jpeg" alt="" height={200} />
           </motion.div>
           <motion.div
-            className="col-md-4"
+            className="col-md-4 "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="py-1">
-                <a href="#" className="text-decoration-none text-dark underline-on-hover">
+              <motion.li
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="py-1 nav-link"
+              >
+                <a
+                  onClick={() => {
+                    const element = document.getElementById("heroSection");
+                    element?.scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                  className="text-decoration-none text-dark underline-on-hover"
+                >
                   Home
                 </a>
               </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="py-1">
-                <a href="#" className="text-decoration-none text-dark underline-on-hover">
+              <motion.li
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="py-1 nav-link"
+              >
+                <a
+                  onClick={() => {
+                    const element = document.getElementById("aboutSection");
+                    element?.scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                  className="text-decoration-none text-dark underline-on-hover"
+                >
                   About
                 </a>
               </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="py-1">
-                <a href="#" className="text-decoration-none text-dark underline-on-hover">
+              <motion.li
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="py-1 nav-link"
+              >
+                <a
+                  onClick={() => {
+                    const element = document.getElementById("serviceSection");
+                    element?.scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                  className="text-decoration-none text-dark underline-on-hover"
+                >
                   Services
                 </a>
               </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="py-1">
-                <a href="#" className="text-decoration-none text-dark underline-on-hover">
-                  Portfolio
-                </a>
-              </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                <a href="#" className="text-decoration-none text-dark underline-on-hover">
+
+              <motion.li
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="py-1 nav-link"
+              >
+                <a
+                  onClick={() => {
+                    const element = document.getElementById("contactSection");
+                    element?.scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                  className="text-decoration-none text-dark underline-on-hover"
+                >
                   Contact
                 </a>
               </motion.li>
             </ul>
           </motion.div>
           <motion.div
-            className="col-md-4"
+            className="col-md-4 p-3"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -66,9 +110,9 @@ const Footer = () => {
               <br />
               City, State 12345
               <br />
-              Phone: (123) 456-7890
+              Phone: 9890150932
               <br />
-              Email: info@example.com(To Change)
+              Email: starworldengg@gmail.com
             </address>
           </motion.div>
         </div>
