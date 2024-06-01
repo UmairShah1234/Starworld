@@ -92,7 +92,7 @@ const ProductCarousel = () => {
   return (
     <div id="productSection">
       <section className="skill" id="skills">
-        <div className="container">
+        <div className="">
           <div className="row">
             <div className="col-12">
               <div className="skill-bx wow zoomIn">

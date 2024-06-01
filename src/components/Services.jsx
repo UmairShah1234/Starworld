@@ -14,8 +14,8 @@ const Services = () => {
           >
             Our Services
           </motion.h2>
-          <div className="row text-center">
-            <div className="col-6 col-md-4 col-lg-2 mb-4 text-center">
+          <div className="row border">
+            <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12 text-center">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
@@ -30,7 +30,7 @@ const Services = () => {
                 </div>
               </motion.div>
             </div>
-            <div className="col-6 col-md-4 col-lg-2 mb-4 ">
+            <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
@@ -45,7 +45,7 @@ const Services = () => {
                 </div>
               </motion.div>
             </div>
-            <div className="col-6 col-md-4 col-lg-2 mb-4">
+            <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
@@ -60,7 +60,7 @@ const Services = () => {
                 </div>
               </motion.div>
             </div>
-            <div className="col-6 col-md-4 col-lg-2 mb-4">
+            <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
@@ -75,7 +75,7 @@ const Services = () => {
                 </div>
               </motion.div>
             </div>
-            <div className="col-6 col-md-4 col-lg-2 mb-4">
+            <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
@@ -90,7 +90,7 @@ const Services = () => {
                 </div>
               </motion.div>
             </div>
-            <div className="col-6 col-md-4 col-lg-2 mb-4">
+            <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12">
               <motion.div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
