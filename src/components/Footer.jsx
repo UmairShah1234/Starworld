@@ -106,9 +106,9 @@ const Footer = () => {
           >
             <h5>Contact Us</h5>
             <address>
-              123 Main Street
+              Survey No,176, Wakanpada,Rehamat Nagar
               <br />
-              City, State 12345
+              Nalasopara East,Dist. Palghar , Maharashtra.
               <br />
               Phone: 9890150932
               <br />

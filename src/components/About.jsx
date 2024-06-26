@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -9,14 +9,6 @@ const About = () => {
           <hr />
           <div className="row">
             <div className="col-lg-6   d-flex">
-              {/* <motion.img
-                src="https://via.placeholder.com/500x300"
-                alt="About Us"
-                className="img-fluid"
-                initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-              /> */}
               <div>
                 <motion.h2
                   initial={{ opacity: 0, x: -100 }}
@@ -64,96 +56,22 @@ const About = () => {
             </div>
 
             <div className="col-lg-6 p-5 ml-3">
-              <motion.h5
-                initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5 }}
-              >
-                Why Choose Us?
-              </motion.h5>
-              <motion.div
-                initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-              >
-                <motion.div
-                  initial={{ opacity: 0, x: -100 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5 }}
-                  className="d-flex"
-                >
-                  <motion.ul
-                    initial={{ opacity: 0, x: -100 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="d-flex flex-column"
-                  >
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1"
-                    >
-                      Expertise: Extensive
-                    </motion.span>
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1"
-                    >
-                      Quality: Superior
-                    </motion.span>
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1"
-                    >
-                      Service: Exceptional
-                    </motion.span>
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1"
-                    >
-                      Reliability: Trustworthy
-                    </motion.span>
-                  </motion.ul>{" "}
-                  <motion.ul
-                    initial={{ opacity: 0, x: -100 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="d-flex flex-column"
-                  >
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1  "
-                    >
-                      Versatility: Diverse
-                    </motion.span>
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1"
-                    >
+              <h5>Why Choose Us?</h5>
+              <div className="">
+                <div className="d-flex">
+                  <p className="d-flex flex-column">
+                    <span className="p-1">Expertise: Extensive</span>
+                    <span className="p-1">Quality: Superior</span>
+                    <span className="p-1">Service: Exceptional</span>
+                    <span className="p-1">Reliability: Trustworthy</span>
+                    <span className="p-1">Versatility: Diverse</span>
+                    <span className="p-1">
                       Relentless Pursuit of Customer Satisfaction
-                    </motion.span>
-                    <motion.span
-                      initial={{ opacity: 0, x: -100 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.8 }}
-                      className="p-1"
-                    >
-                      Commitment: Unwavering
-                    </motion.span>
-                  </motion.ul>
-                </motion.div>
-              </motion.div>
+                    </span>
+                    <span className="p-1">Commitment: Unwavering</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <hr />

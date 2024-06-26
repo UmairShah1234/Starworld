@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import ProjectCard from "./ProjectCard";
 import "react-multi-carousel/lib/styles.css";
 import ProductCarouselCards from "./ProductCarouselCards";
 

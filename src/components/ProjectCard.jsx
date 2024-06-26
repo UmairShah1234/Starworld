@@ -24,10 +24,7 @@ const ProjectCard = ({ product }) => {
             <strong>{product.name}</strong>
           </p>
           <p className="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas
-            accusantium distinctio. Ipsum dolore, facere repellat molestias
-            veniam dolores pariatur doloremque laboriosam, iure ut numquam
-            aperiam tempora unde eos? Reprehenderit!
+           {product.description}
           </p>
 
           <Link

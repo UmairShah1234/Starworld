@@ -1,7 +1,6 @@
-import React, { forwardRef, useState } from "react";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
 
-const Contact = forwardRef((prop, ref) => {
+const Contact = () => {
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
   const [showErrorAlert, setShowErrorAlert] = useState(false);
   const [formData, setFormData] = useState({
@@ -20,7 +19,6 @@ const Contact = forwardRef((prop, ref) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log("formSubmit called");
     try {
       await axios.post("http://localhost:5000/api/send-email", formData);
       setShowSuccessAlert(true);
@@ -37,7 +35,7 @@ const Contact = forwardRef((prop, ref) => {
     }
   };
   return (
-    <div className="bg-light  p-3" id="contactSection">
+    <div className="bg-light text-dark p-3">
       {showSuccessAlert && (
         <div
           className="alert alert-success alert-dismissible fade show"
@@ -70,83 +68,80 @@ const Contact = forwardRef((prop, ref) => {
       )}
 
       <div className="container p-3">
-        <div>
-          <h3 className="card-title">Want To Connect with Us?</h3>
-          <p>Fill the details given below to connect to us</p>
+        <h3 className="card-title">Want To Connect with Us?</h3>
+        <p>Fill the details given below to connect to us</p>
 
-          <hr />
+        <hr />
 
-          <div className="card p-3 shadow-lg">
-            <form onSubmit={handleSubmit}>
-              <div className="row row-cols-lg-2 row-cols-1">
-                <div className="mb-3 mx-1 ">
-                  <label className="form-label">Name</label>
-                  <input
-                    type="text"
-                    className="form-control "
-                    id="textInput"
-                    aria-describedby="textHelp"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                  />
-                  <div id="emailHelp" className="form-text">
-                    Your Details are completely secure.
-                  </div>
-                </div>
-                <div className="mb-3 mx-1 ">
-                  <label className="form-label">Email address</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                  />
-                  <div id="emailHelp" className="form-text">
-                    Your Details are completely secure.
-                  </div>
-                </div>
-                <div className="mb-3 ">
-                  <label className="form-label">Phone Number</label>
-                  <input
-                    type="tel"
-                    className="form-control"
-                    id="exampleInputPassword1"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    required
-                  />
-                </div>
-              </div>
-
-              <div className="mb-3">
-                <label className="form-label">Your Message About</label>
-                <textarea
-                  rows={5}
+        <div className="card bg-light p-3 shadow-lg">
+          <form onSubmit={handleSubmit}>
+            <div className="row row-cols-lg-2 row-cols-1">
+              <div className="mb-3 mx-1 ">
+                <label className="form-label">Name</label>
+                <input
                   type="text"
-                  className="form-control"
-                  id="exampleMessage"
-                  name="message"
-                  value={formData.message}
+                  className="form-control bg-light text-dark"
+                  id="textInput"
+                  aria-describedby="textHelp"
+                  name="name"
+                  value={formData.name}
                   onChange={handleChange}
                 />
+                <div id="emailHelp" className="form-text">
+                  Your Details are completely secure.
+                </div>
               </div>
+              <div className="mb-3 mx-1 ">
+                <label className="form-label">Email address</label>
+                <input
+                  type="email"
+                  className="form-control bg-light text-dark"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+                <div id="emailHelp" className="form-text">
+                  Your Details are completely secure.
+                </div>
+              </div>
+              <div className="mb-3 ">
+                <label className="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  className="form-control bg-light text-dark"
+                  id="exampleInputPassword1"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+            </div>
 
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
-            </form>
-          </div>
+            <div className="mb-3">
+              <label className="form-label">Your Message About</label>
+              <textarea
+                rows={5}
+                type="text"
+                className="form-control bg-light text-dark"
+                id="exampleMessage"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+              />
+            </div>
+
+            <button type="submit" className="btn btn-outline-primary">
+              Submit
+            </button>
+          </form>
         </div>
-        <div></div>
       </div>
     </div>
   );
-});
+};
 
 export default Contact;

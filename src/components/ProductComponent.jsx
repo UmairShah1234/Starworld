@@ -5,21 +5,21 @@ const ProductComponent = () => {
   const products = [
     {
       name: "Front Loading Garment Processing Washing Machine",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "With Forward Tilting 200 ,280 ,380 ,480 kgs capacity machines. O-zonator Machine.",
       price: 19.99,
       image: "/assets/FLGPWM.jpg",
     },
     {
       name: "Front Loading Garment Processing Machine With Forward Tilting Arrangement",
       description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "With Forward Tilting 200 ,280 ,380 ,480 kgs capacity machines. O-zonator Machine.",
       price: 29.99,
       image: "/assets/FLGPMWFTA.jpg",
     },
     {
-      name: "Fully Automatic Front Loaded Garment Washing / Dyeing Machine",
+      name: "Low Speed Dyeing Machine",
       description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Available 90 ,480 Kg capacity. An efficient Garment/Knittwear Processor and Washer. A boon to garment/knittwear manufacturers exporters and process house. Choice of Gear/Timing Belt Pulley drives. Choice of Manual-Pneumatic/Microprocessor PLC Controller Touch screen panel. Carries out desizing,Enzyme,Silicon wash,Bleaccing Stoning Softening Dyeing an many more..",
       price: 29.99,
       image: "/assets/FAFLGWDM.jpg",
     },
@@ -40,7 +40,7 @@ const ProductComponent = () => {
     {
       name: "Drying Tumbler With Forward Tilting Arrangement",
       description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Available in 10kg to 125kg capacities .Heating availabe in steam .Thermic Flood, Electric and Gas .Unique air flow ensured Maximum Heat Utilisation,Quick and Efficient dyeing .Choice of fully Automatic,Microprocesor Controller along with Cool down features.",
       price: 29.99,
       image: "/assets/DTWFTA.jpg",
     },
@@ -61,7 +61,7 @@ const ProductComponent = () => {
     {
       name: "Drying Tumbler ( High Capacity )",
       description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Available in 10kg to 125kg capacities .Heating availabe in steam .Thermic Flood, Electric and Gas .Unique air flow ensured Maximum Heat Utilisation,Quick and Efficient dyeing .Choice of fully Automatic,Microprocesor Controller along with Cool down features.",
       price: 29.99,
       image: "/assets/SLGTPWMDD.jpg",
     },

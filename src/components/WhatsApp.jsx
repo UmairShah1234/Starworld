@@ -5,16 +5,6 @@ const WhatsApp = () => {
   const accountName = "Starworld";
 
   return (
-    // <div
-    //   style={{
-    //     position: "sticky",
-    //     bottom: 40,
-    //     left: 10,
-    //     zIndex: 100,
-    //   }}
-    // >
-    //   WhatsApp
-    // </div>
     <>
       <FloatingWhatsApp
         accountName={accountName}
@@ -24,6 +14,7 @@ const WhatsApp = () => {
         allowEsc = {true}
         statusMessage = {"Active"}
         notification = {true}
+        phoneNumber="9890150932"
       />
     </>
   );
