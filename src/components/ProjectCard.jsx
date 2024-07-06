@@ -7,7 +7,7 @@ const ProjectCard = ({ product }) => {
   return (
     <>
       <motion.div
-        className="card m-1"
+        className="card m-1 "
         whileHover={{
           scale: 1.1,
           boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
@@ -23,9 +23,12 @@ const ProjectCard = ({ product }) => {
           <p className="card-title">
             <strong>{product.name}</strong>
           </p>
-          <p className="card-text">
-           {product.description}
-          </p>
+          <span>
+            {product.function} <br />
+            {product.function1} <br />
+            {product.function2} <br />
+            {product.function3} <br />
+          </span>
 
           <Link
             to="homesection"

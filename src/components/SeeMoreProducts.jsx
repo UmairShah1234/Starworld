@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCarousel from "./ProductCarousel";
+import ProductCarouselCards1 from "./ProductCarouselCards1";
 
 const SeeMoreProducts = () => {
   return (
@@ -25,7 +25,7 @@ const SeeMoreProducts = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <ProductCarousel />
+              <ProductCarouselCards1 />
             </div>
           </div>
         </div>

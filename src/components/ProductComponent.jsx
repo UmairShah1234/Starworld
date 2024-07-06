@@ -4,66 +4,78 @@ import ProjectCard from "./ProjectCard";
 const ProductComponent = () => {
   const products = [
     {
-      name: "Front Loading Garment Processing Washing Machine",
-      description: "With Forward Tilting 200 ,280 ,380 ,480 kgs capacity machines. O-zonator Machine.",
-      price: 19.99,
-      image: "/assets/FLGPWM.jpg",
+      name: "Garment Processing Front Loading Sampling Washing Machine",
+      capacityrange: "Available in 5-90Kg capacity in same model",
+      function: "Choice of control panel manual, microprocessor and PLC.",
+      function1: "Efficient garment processing and laundry washer.",
+      function2: "Dyeing and processing of garments.",
+      image: "/assets/FLGPWM.jpg", //to change
     },
+
     {
-      name: "Front Loading Garment Processing Machine With Forward Tilting Arrangement",
-      description:
-        "With Forward Tilting 200 ,280 ,380 ,480 kgs capacity machines. O-zonator Machine.",
-      price: 29.99,
-      image: "/assets/FLGPMWFTA.jpg",
-    },
-    {
-      name: "Low Speed Dyeing Machine",
-      description:
-        "Available 90 ,480 Kg capacity. An efficient Garment/Knittwear Processor and Washer. A boon to garment/knittwear manufacturers exporters and process house. Choice of Gear/Timing Belt Pulley drives. Choice of Manual-Pneumatic/Microprocessor PLC Controller Touch screen panel. Carries out desizing,Enzyme,Silicon wash,Bleaccing Stoning Softening Dyeing an many more..",
-      price: 29.99,
+      name: "Garment Processing  Side Loading Sampling Washing Machine",
+      capacityrange: "Available in 5-90 Kg capacity in same model.",
+      function: "Choice of control panel manual, microprocessor and PLC.",
+      function1: "Efficient garment processing and laundry washer.",
+      function2: "Dyeing and processing of garments.",
       image: "/assets/FAFLGWDM.jpg",
     },
     {
-      name: "Side Loading Garment / Textile Processing Washing Machine",
-      description:
-        "Available in 5kg to 75kg capacity .An effecient Garment Processor and Washer .A boon to Garment Manufactuers ,Exporters and Process houses .Carries out Desizing ,Enzyme ,Bleaching ,Stoning ,Softening Dyeing and many more...",
-      price: 29.99,
+      name: "Drying Tumbler",
+      capacityrange: "Available in 10-125 kg capacity.",
+      function: "Choice of control panel manual, microprocessor and PLC.",
+      function1:
+        "Heating System Gas, Steam, Electric heating and Thermic fluid.",
+      function2: "Unique air flow ensures maximum heat utilization.",
+      image: "/assets/SLGTPWMDD.jpg",
+    },
+    {
+      name: "Side Loading Washing Machine",
+      capacityrange: "Available in 100-400kg capacity double door system.",
+      function: "Efficient garment/Knitwear processor and washer.",
+      function1: "Choice of control panel manual, microprocessor and PLC.",
+      function2:
+        "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
+      function3: "Choice of drive gear box/sprocket.",
       image: "/assets/SLGTPWM.jpg",
     },
     {
-      name: "Side Loading Garment / Textile Processing Washing Machine (Double Door)",
-      description:
-        "Availble in 5kg to 75kg capacity .An efficient Garment Processor and Washer .A boon to Garment Manufcaturers,Exporters and Process houses .\nCarries out Desizing, Enzyme, Bleaching, Stoning, Softening Dyeing and many more...",
-      price: 29.99,
-      image: "/assets/SLGTPWMDD.jpg",
+      name: "Dyeing Front Loading Washing Machine",
+      capacityrange: "Available in 100-480kg capacity.",
+      function:
+        "Efficient garment/Knitwear processor, washing and also O-zonator machine.",
+      function1: "Choice of control panel manual, microprocessor and PLC.",
+      function2:
+        "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
+      function3: "Choice of drive gear box/timing pulley.",
+      image: "/assets/FLGPMWFTA.jpg",
     },
+
     {
-      name: "Drying Tumbler With Forward Tilting Arrangement",
-      description:
-        "Available in 10kg to 125kg capacities .Heating availabe in steam .Thermic Flood, Electric and Gas .Unique air flow ensured Maximum Heat Utilisation,Quick and Efficient dyeing .Choice of fully Automatic,Microprocesor Controller along with Cool down features.",
-      price: 29.99,
+      name: "Drying Tumbler Jumbo Forward Tilting",
+      capacityrange: "Available in 150,200 and 250 kg capacity.",
+      function: "Choice of control panel manual, microprocessor & PLC.",
+      function1:
+        "Heating System Gas, Steam, Electric heating and Thermic fluid.",
+      function2: "Dual radiator with Top to bottom air flow.",
+      function3: "Choice of door opening manual or sliding.",
       image: "/assets/DTWFTA.jpg",
     },
     {
-      name: "Hydro Extractor ( Centrifuge )",
-      description:
-        "Available in 25kg ,50kg ,75kg ,100kg capacity.Heavy dusty 3 points suspension type high speed Centrifuge.Stainless steel Inner and Outer drum.Inverter driver for soft start stop and Breaking Register.Centrifugal cluth and gradual acceleration.Large drain out auto time future",
-      price: 29.99,
+      name: "Rotary Roaster Forward Tilting",
+      capacityrange: "Available in 10-300 kg capacity.",
+      function: "Choice of control panel manual, microprocessor.",
+      function1: "Heating System Gas and Electric heating.",
+      function2: "Unique air flow ensures maximum heat utilization.",
       image: "/assets/HEC.jpg",
     },
     {
-      name: "Drying Tumbler",
-      description:
-        "Available in 10kg to 125kg capacities .Heating availabe in steam .Thermic Flood, Electric and Gas .Unique air flow ensured Maximum Heat Utilisation,Quick and Efficient dyeing .Choice of fully Automatic,Microprocesor Controller along with Cool down features.",
-      price: 29.99,
+      name: "Curing Ovens",
+      capacityrange: "5 pants, 30 pants, 60 pants.",
+      function: "Batch type and also available in Conveyor.",
+      function1: "Heating system, Electric heating or gas fired.",
+      function2: "Trolley System or Conveyor System.",
       image: "/assets/DT.jpg",
-    },
-    {
-      name: "Drying Tumbler ( High Capacity )",
-      description:
-        "Available in 10kg to 125kg capacities .Heating availabe in steam .Thermic Flood, Electric and Gas .Unique air flow ensured Maximum Heat Utilisation,Quick and Efficient dyeing .Choice of fully Automatic,Microprocesor Controller along with Cool down features.",
-      price: 29.99,
-      image: "/assets/SLGTPWMDD.jpg",
     },
   ];
   return (

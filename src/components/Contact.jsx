@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 const Contact = () => {
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
@@ -18,6 +19,7 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
+    console.log(formData);
     e.preventDefault();
     try {
       await axios.post("http://localhost:5000/api/send-email", formData);
@@ -35,7 +37,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="bg-light text-dark p-3">
+    <div className="bg-light text-dark p-3" id="contactSection">
       {showSuccessAlert && (
         <div
           className="alert alert-success alert-dismissible fade show"
