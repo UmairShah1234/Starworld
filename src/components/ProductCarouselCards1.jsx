@@ -7,31 +7,28 @@ import CarouselCard from "./CarouselCard";
 const ProductCarouselCards1 = () => {
   const products = [
     {
-      image: "/assets/FLGPWM.jpg",
+      no: 1,
+      image: "/assets/pic1.png",
     },
     {
-      image: "/assets/FLGPMWFTA.jpg",
+      no: 2,
+      image: "/assets/pic2.png",
     },
     {
-      image: "/assets/FAFLGWDM.jpg",
+      no: 3,
+      image: "/assets/pic3.png",
     },
     {
-      image: "/assets/SLGTPWM.jpg",
+      no: 4,
+      image: "/assets/pic4.png",
     },
     {
-      image: "/assets/SLGTPWMDD.jpg",
+      no: 5,
+      image: "/assets/pic5.png",
     },
     {
-      image: "/assets/DTWFTA.jpg",
-    },
-    {
-      image: "/assets/HEC.jpg",
-    },
-    {
-      image: "/assets/DT.jpg",
-    },
-    {
-      image: "/assets/SLGTPWMDD.jpg",
+      no: 6,
+      image: "/assets/pic6.png",
     },
   ];
 
@@ -77,7 +74,7 @@ const ProductCarouselCards1 = () => {
       {" "}
       <Slider {...settings}>
         {products.map((product) => (
-          <CarouselCard product={product} />
+          <CarouselCard product={product} key={product.no}/>
         ))}
       </Slider>
     </div>

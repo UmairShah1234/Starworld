@@ -7,7 +7,7 @@ const CarouselCard = ({ product }) => {
       <div className="card rounded-0 text-center shadow mx-1">
         <div className="card-body">
           <p className="card-text text-wrap">
-            <img src={product.image} alt="" className="carousel-img" />
+            <img src={"/assets/HEC.jpg"} alt="" className="carousel-img" />
           </p>
         </div>
         <div className="card-footer text-muted">
