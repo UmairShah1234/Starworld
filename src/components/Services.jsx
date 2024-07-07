@@ -6,21 +6,14 @@ const Services = () => {
     <div id="serviceSection">
       <section id="services" className="py-1 services">
         <div className="container">
-          <motion.h2
-            className="text-center mb-5 text-decoration-underline"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
+          <h2 className="text-center mb-5 text-decoration-underline">
             Our Services
-          </motion.h2>
+          </h2>
           <div className="row  ">
             <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12 text-center d-flex justify-content-center">
-              <motion.div
+              <div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
               >
                 <div className="card-body text-center">
                   <h5 className="card-title">System Counseling</h5>
@@ -28,14 +21,12 @@ const Services = () => {
                     Expert guidance for optimizing operations.
                   </p>
                 </div>
-              </motion.div>
+              </div>
             </div>
             <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12  d-flex justify-content-center">
-              <motion.div
+              <div
                 className="rounded-circle shadow bg-info p-3 d-flex justify-content-center align-items-center"
                 style={{ width: "200px", height: "200px" }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
               >
                 <div className="card-body text-center">
                   <h5 className="card-title">GPM</h5>
@@ -43,7 +34,7 @@ const Services = () => {
                     Tailored machinery for efficient garment finishing.
                   </p>
                 </div>
-              </motion.div>
+              </div>
             </div>
             <div className="col-6 col-md-4 col-lg-2 mb-4 col-sm-10 col-12 d-flex justify-content-center">
               <motion.div

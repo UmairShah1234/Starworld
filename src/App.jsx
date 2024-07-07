@@ -9,6 +9,7 @@ import HeroSection from "./components/HeroSection";
 import ProductComponent from "./components/ProductComponent";
 import WhatsApp from "./components/WhatsApp";
 import SeeMoreProducts from "./components/SeeMoreProducts";
+import { motion } from "framer-motion";
 
 function App() {
   return (
@@ -18,18 +19,55 @@ function App() {
       <div className="gradient-container">
         <TopLoadingBar />
 
-        <HeroSection />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <HeroSection />
+        </motion.div>
 
-        <About />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <About />
+        </motion.div>
 
-        <Services />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Services />
+        </motion.div>
 
-        <ProductComponent />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <ProductComponent />
+        </motion.div>
 
-        <SeeMoreProducts />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <SeeMoreProducts />
+        </motion.div>
 
-        <Contact />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Contact />
+        </motion.div>
 
+        
         <WhatsApp />
       </div>
 

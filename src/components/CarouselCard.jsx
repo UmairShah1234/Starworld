@@ -6,7 +6,7 @@ const CarouselCard = ({ product }) => {
     <div>
       <div className="card rounded-0 text-center shadow mx-1">
         <div className="card-body">
-          <p className="card-text d-flex justify-content-center">
+          <p className="card-text d-flex justify-content-center ">
             <img src={product.image} alt="" className="carousel-img" />
           </p>
         </div>
@@ -14,7 +14,7 @@ const CarouselCard = ({ product }) => {
           {" "}
           <Link
             to="homesection"
-            className=" btn btn-primary text-light rounded-0"
+            className=" btn btn-primary text-light rounded-0 "
             smooth={true}
             onClick={() => {
               const element = document.getElementById("contactSection");

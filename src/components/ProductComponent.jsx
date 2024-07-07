@@ -87,6 +87,7 @@ const ProductComponent = () => {
       image: image8,
     },
   ];
+
   return (
     <div id="productSection">
       <div className="container my-3">

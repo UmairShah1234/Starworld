@@ -76,7 +76,7 @@ const ProductCarouselCards1 = () => {
     ],
   };
   return (
-    <div className="row">
+    <div className="">
       {" "}
       <Slider {...settings}>
         {products.map((product) => (

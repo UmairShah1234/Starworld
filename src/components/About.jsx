@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -10,19 +9,10 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6   d-flex">
               <div>
-                <motion.h2
-                  initial={{ opacity: 0, x: -100 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5 }}
-                  className="text-decoration-underline mb-3 text-center"
-                >
+                <h2 className="text-decoration-underline mb-3 text-center">
                   About Us
-                </motion.h2>
-                <motion.span
-                  initial={{ opacity: 0, x: -100 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8 }}
-                >
+                </h2>
+                <span>
                   <p className="p-1">
                     Established in 2017 as "Starworld Engineering Company," we
                     are located in Vasai East, Dist. Palghar. With nearly two
@@ -51,7 +41,7 @@ const About = () => {
                     innovative approach to meet and exceed customer
                     expectations.
                   </p>
-                </motion.span>
+                </span>
               </div>
             </div>
 

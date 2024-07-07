@@ -4,11 +4,11 @@ import ProductCarouselCards1 from "./ProductCarouselCards1";
 const SeeMoreProducts = () => {
   return (
     <>
-      <div className="accordion m-5 shadow" id="accordionExample">
+      <div className="accordion m-3 shadow" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
-              className="accordion-button text-dark border border-primary"
+              className="accordion-button text-dark"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
