@@ -1,5 +1,14 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import image1 from './../assets/Product1.jpg';
+import image2 from './../assets/Picture2.jpg';
+import image3 from './../assets/Picture3.jpg';
+import image4 from './../assets/Picture4.jpg';
+import image5 from './../assets/Picture5.jpg';
+import image6 from './../assets/Picture6.jpg';
+import image7 from './../assets/Picture7.jpg';
+import image8 from './../assets/Picture8.jpg';
+
 
 const ProductComponent = () => {
   const products = [
@@ -9,7 +18,7 @@ const ProductComponent = () => {
       function: "Choice of control panel manual, microprocessor and PLC.",
       function1: "Efficient garment processing and laundry washer.",
       function2: "Dyeing and processing of garments.",
-      image: "/assets/FLGPWM.jpg", //to change
+      image: image1, //to change
     },
 
     {
@@ -18,7 +27,7 @@ const ProductComponent = () => {
       function: "Choice of control panel manual, microprocessor and PLC.",
       function1: "Efficient garment processing and laundry washer.",
       function2: "Dyeing and processing of garments.",
-      image: "/assets/FAFLGWDM.jpg",
+      image: image2,
     },
     {
       name: "Drying Tumbler",
@@ -27,7 +36,7 @@ const ProductComponent = () => {
       function1:
         "Heating System Gas, Steam, Electric heating and Thermic fluid.",
       function2: "Unique air flow ensures maximum heat utilization.",
-      image: "/assets/SLGTPWMDD.jpg",
+      image: image3,
     },
     {
       name: "Side Loading Washing Machine",
@@ -37,7 +46,7 @@ const ProductComponent = () => {
       function2:
         "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
       function3: "Choice of drive gear box/sprocket.",
-      image: "/assets/SLGTPWM.jpg",
+      image: image4,
     },
     {
       name: "Dyeing Front Loading Washing Machine",
@@ -48,7 +57,7 @@ const ProductComponent = () => {
       function2:
         "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
       function3: "Choice of drive gear box/timing pulley.",
-      image: "/assets/FLGPMWFTA.jpg",
+      image: image5,
     },
 
     {
@@ -59,7 +68,7 @@ const ProductComponent = () => {
         "Heating System Gas, Steam, Electric heating and Thermic fluid.",
       function2: "Dual radiator with Top to bottom air flow.",
       function3: "Choice of door opening manual or sliding.",
-      image: "/assets/DTWFTA.jpg",
+      image: image6,
     },
     {
       name: "Rotary Roaster Forward Tilting",
@@ -67,7 +76,7 @@ const ProductComponent = () => {
       function: "Choice of control panel manual, microprocessor.",
       function1: "Heating System Gas and Electric heating.",
       function2: "Unique air flow ensures maximum heat utilization.",
-      image: "/assets/HEC.jpg",
+      image: image7,
     },
     {
       name: "Curing Ovens",
@@ -75,7 +84,7 @@ const ProductComponent = () => {
       function: "Batch type and also available in Conveyor.",
       function1: "Heating system, Electric heating or gas fired.",
       function2: "Trolley System or Conveyor System.",
-      image: "/assets/DT.jpg",
+      image: image8,
     },
   ];
   return (

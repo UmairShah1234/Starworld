@@ -3,32 +3,38 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import CarouselCard from "./CarouselCard";
+import image1 from './../assets/pic1.png';
+import image2 from './../assets/pic2.png';
+import image3 from './../assets/pic3.png';
+import image4 from './../assets/pic4.png';
+import image5 from './../assets/pic5.png';
+import image6 from './../assets/pic6.png';
 
 const ProductCarouselCards1 = () => {
   const products = [
     {
       no: 1,
-      image: "/assets/pic1.png",
+      image: image1,
     },
     {
       no: 2,
-      image: "/assets/pic2.png",
+      image: image2,
     },
     {
       no: 3,
-      image: "/assets/pic3.png",
+      image: image3,
     },
     {
       no: 4,
-      image: "/assets/pic4.png",
+      image: image4,
     },
     {
       no: 5,
-      image: "/assets/pic5.png",
+      image: image5,
     },
     {
       no: 6,
-      image: "/assets/pic6.png",
+      image: image6,
     },
   ];
 

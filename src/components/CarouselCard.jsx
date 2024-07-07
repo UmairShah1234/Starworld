@@ -6,8 +6,8 @@ const CarouselCard = ({ product }) => {
     <div>
       <div className="card rounded-0 text-center shadow mx-1">
         <div className="card-body">
-          <p className="card-text text-wrap">
-            <img src={"/assets/HEC.jpg"} alt="" className="carousel-img" />
+          <p className="card-text d-flex justify-content-center">
+            <img src={product.image} alt="" className="carousel-img" />
           </p>
         </div>
         <div className="card-footer text-muted">

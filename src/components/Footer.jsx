@@ -120,7 +120,7 @@ const Footer = () => {
       <div className="text-center">
         <span className="p-3">
           {" "}
-          © Copyright 2023 | All Rights Reserved Starwart
+          © Copyright 2023 | All Rights Reserved Starworld Engg
         </span>
       </div>
     </motion.footer>
