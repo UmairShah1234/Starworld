@@ -85,11 +85,7 @@
 
 
 
-.card-img-top {
-  height: 200px;
-  width: auto;
-  object-fit: cover;
-}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -132,6 +128,12 @@
   height: 200px;
   width: auto;
   object-fit: cover;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
 }
 
 /* Media query for smaller screens */
