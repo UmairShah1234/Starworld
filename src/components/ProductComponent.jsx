@@ -47,17 +47,6 @@ const ProductComponent = () => {
       function3: "Choice of drive gear box/sprocket.",
       image: image4,
     },
-    {
-      name: "Dyeing Front Loading Washing Machine",
-      capacityrange: "Available in 100-480kg capacity.",
-      function:
-        "Efficient garment/Knitwear processor, washing , O-zonator machine.",
-      function1: "Choice of control panel manual, microprocessor, PLC.",
-      function2:
-        "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
-      function3: "Choice of drive gear box/timing pulley.",
-      image: image5,
-    },
 
     {
       name: "Drying Tumbler Jumbo Forward Tilting",
@@ -68,6 +57,17 @@ const ProductComponent = () => {
       function2: "Dual radiator with Top to bottom air flow.",
       function3: "Choice of door opening manual or sliding.",
       image: image6,
+    },
+    {
+      name: "Dyeing Front Loading Washing Machine",
+      capacityrange: "Available in 100-480kg capacity.",
+      function:
+        "Efficient garment/Knitwear processor, washing , O-zonator machine.",
+      function1: "Choice of control panel manual, microprocessor, PLC.",
+      function2:
+        "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
+      function3: "Choice of drive gear box/timing pulley.",
+      image: image5,
     },
     {
       name: "Rotary Roaster Forward Tilting",
