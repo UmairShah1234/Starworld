@@ -1,13 +1,13 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import image1 from "./../assets/Product1.jpg";
+import image1 from "./../assets/Product1.png";
 import image2 from "./../assets/Picture2.jpg";
 import image3 from "./../assets/Picture3.jpg";
 import image4 from "./../assets/Picture4.jpg";
-import image5 from "./../assets/Picture5.jpg";
-import image6 from "./../assets/Picture6.jpg";
+import image5 from "./../assets/Picture5.png";
+import image6 from "./../assets/Picture6.png";
 import image7 from "./../assets/Picture7.jpg";
-import image8 from "./../assets/Picture8.jpg";
+import image8 from "./../assets/Picture8.png";
 
 const ProductComponent = () => {
   const products = [
@@ -17,15 +17,15 @@ const ProductComponent = () => {
       function: "Choice of control panel manual, microprocessor and PLC.",
       function1: "Efficient garment processing and laundry washer.",
       function2: "Dyeing and processing of garments.",
-      image: image1, //to change
+      image: image1, 
     },
 
     {
-      name: "Garment Processing  Side Loading Sampling Washing Machine",
-      capacityrange: "Available in 5-90 Kg capacity in same model.",
+      name: "Dyeing Front Loading Washing Machine",
+      capacityrange: "Available in 100-480Kg capacity.",
       function: "Choice of control panel manual, microprocessor and PLC.",
-      function1: "Efficient garment processing and laundry washer.",
-      function2: "Dyeing and processing of garments.",
+      function1: "Silicon wash, softening, bleaching, dying, enzyme and many more.",
+      function2: "Choice of drive gear box/timing pulley.",
       image: image2,
     },
     {
@@ -35,7 +35,7 @@ const ProductComponent = () => {
       function1:
         "Heating System Gas, Steam, Electric heating and Thermic fluid.",
       function2: "Unique air flow ensures maximum heat utilization.",
-      image: image3,
+      image: image3, //to change
     },
     {
       name: "Side Loading Washing Machine",
