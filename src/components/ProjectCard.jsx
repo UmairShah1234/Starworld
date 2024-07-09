@@ -24,7 +24,7 @@ const ProjectCard = ({ product }) => {
             <strong>{product.name}</strong>
           </p>
           <span>
-            {product.capacityrange}
+            {product.capacityrange} <br />
             {product.function} <br />
             {product.function1} <br />
             {product.function2} <br />

@@ -17,24 +17,24 @@ const ProductComponent = () => {
       function: "Choice of control panel manual, microprocessor and PLC.",
       function1: "Efficient garment processing and laundry washer.",
       function2: "Dyeing and processing of garments.",
-      image: image1, 
+      image: image1,
     },
-
     {
       name: "Dyeing Front Loading Washing Machine",
       capacityrange: "Available in 100-480Kg capacity.",
       function: "Choice of control panel manual, microprocessor and PLC.",
-      function1: "Silicon wash, softening, bleaching, dying, enzyme and many more.",
-      function2: "Choice of drive gear box/timing pulley.",
+      function1:
+        "Efficient garment/Knitwear processor, washing , O-zonator machine",
+      function2: "Silicon wash, softening, bleaching, dying, enzyme.",
+      function3: "Choice of drive gear box/timing pulley.",
       image: image2,
     },
     {
-      name: "Drying Tumbler",
-      capacityrange: "Available in 10-125 kg capacity.",
+      name: "Garment Processing  Side Loading Sampling Washing Machine",
+      capacityrange: "Available in 5-90 kg capacity.",
       function: "Choice of control panel manual, microprocessor, PLC.",
-      function1:
-        "Heating System Gas, Steam, Electric heating and Thermic fluid.",
-      function2: "Unique air flow ensures maximum heat utilization.",
+      function1: "Efficient garment processing and laundry washer.",
+      function2: "Dyeing and processing of garments.",
       image: image3, //to change
     },
     {
@@ -59,14 +59,12 @@ const ProductComponent = () => {
       image: image6,
     },
     {
-      name: "Dyeing Front Loading Washing Machine",
-      capacityrange: "Available in 100-480kg capacity.",
-      function:
-        "Efficient garment/Knitwear processor, washing , O-zonator machine.",
-      function1: "Choice of control panel manual, microprocessor, PLC.",
-      function2:
-        "Carries out Silicon wash, softening, bleaching, stoning, dyeing, enzyme and many more.",
-      function3: "Choice of drive gear box/timing pulley.",
+      name: "Drying Tumbler",
+      capacityrange: "Available in 10-125kg capacity.",
+      function: "Choice of control panel manual, microprocessor and PLC.",
+      function1:
+        "Heating System Gas, Steam, Electric heating and Thermic fluid",
+      function2: "Unique air flow ensures maximum heat utilization",
       image: image5,
     },
     {
@@ -78,14 +76,6 @@ const ProductComponent = () => {
       image: image7,
     },
     {
-      name: "Curing Ovens",
-      capacityrange: "Availabe in 5 pants, 30 pants, 60 pants.",
-      function: "Batch type and also available in Conveyor.",
-      function1: "Heating system, Electric heating or gas fired.",
-      function2: "Trolley System or Conveyor System.",
-      image: image8,
-    },
-    {
       name: "Hydro Extractor(Centrifuge)",
       capacityrange: "Availabe in 25, 50, 75 and 100kg.",
       function: "Heavy dusty 3 points suspension type high speed centrifuge",
@@ -93,6 +83,14 @@ const ProductComponent = () => {
       function2: "Inverter driver for soft start stop & breaking register.",
       function3: "Centrifugal cluth & gradual accelaration.",
       image: "/assets/HEC.jpg",
+    },
+    {
+      name: "Curing Ovens",
+      capacityrange: "Availabe in 5 pants, 30 pants, 60 pants.",
+      function: "Batch type and also available in Conveyor.",
+      function1: "Heating system, Electric heating or gas fired.",
+      function2: "Trolley System or Conveyor System.",
+      image: image8,
     },
   ];
 
