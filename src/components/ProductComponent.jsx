@@ -7,7 +7,7 @@ import image4 from "./../assets/Picture4.jpg";
 import image5 from "./../assets/Picture5.png";
 import image6 from "./../assets/Picture6.png";
 import image7 from "./../assets/Picture7.jpg";
-import image8 from "./../assets/Picture8.png";
+import image8 from "./../assets/Picture8.jpg";
 
 const ProductComponent = () => {
   const products = [
