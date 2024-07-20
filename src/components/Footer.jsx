@@ -106,9 +106,9 @@ const Footer = () => {
           >
             <h5>Contact Us</h5>
             <address>
-              Survey No,176, Wakanpada,Rehamat Nagar
+              201, Laxmi Dham CHS Ltd, Carpenter Lane
               <br />
-              Nalasopara East,Dist. Palghar , Maharashtra.
+              Tamtalao, Vasai(W), Dist-Palghar-401201
               <br />
               Phone: 9890150932
               <br />
