@@ -3,12 +3,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import CarouselCard from "./CarouselCard";
-import image1 from './../assets/pic1.png';
-import image2 from './../assets/pic2.png';
-import image3 from './../assets/pic3.png';
-import image4 from './../assets/pic4.png';
-import image5 from './../assets/pic5.png';
-import image6 from './../assets/pic6.png';
+import image1 from "./../assets/pic1.png";
+import image2 from "./../assets/pic2.png";
+import image3 from "./../assets/pic3.png";
+import image4 from "./../assets/pic4.png";
+import image5 from "./../assets/pic5.png";
+import image6 from "./../assets/pic6.png";
+import image8 from "./../assets/pic8.jpg";
+import image9 from "./../assets/pic9.jpg";
+import image10 from "./../assets/pic10.jpg";
 
 const ProductCarouselCards1 = () => {
   const products = [
@@ -35,6 +38,18 @@ const ProductCarouselCards1 = () => {
     {
       no: 6,
       image: image6,
+    },
+    {
+      no: 8,
+      image: image8,
+    },
+    {
+      no: 9,
+      image: image9,
+    },
+    {
+      no: 10,
+      image: image10,
     },
   ];
 
@@ -80,7 +95,7 @@ const ProductCarouselCards1 = () => {
       {" "}
       <Slider {...settings}>
         {products.map((product) => (
-          <CarouselCard product={product} key={product.no}/>
+          <CarouselCard product={product} key={product.no} />
         ))}
       </Slider>
     </div>
