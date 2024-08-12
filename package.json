@@ -13,8 +13,10 @@
     "axios": "^1.7.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "file-saver": "^2.0.5",
     "framer-motion": "^11.0.3",
     "nodemailer": "^6.9.14",
+    "pdf-viewer": "^0.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-floating-whatsapp": "^5.0.8",
@@ -22,7 +24,8 @@
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
     "react-top-loading-bar": "^2.3.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "starwart": "file:"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

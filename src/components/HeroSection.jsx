@@ -1,4 +1,5 @@
 import React from "react";
+import FileSaver from "./FileSaver";
 
 const HeroSection = () => {
   return (
@@ -30,6 +31,7 @@ const HeroSection = () => {
             >
               Find More &#8595;
             </button>
+            <FileSaver />
           </div>
         </div>
         <div className="col-md-4 ">
