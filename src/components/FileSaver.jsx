@@ -7,7 +7,7 @@ const FileSaver = () => {
     saveAs(machinePdf, machinePdf.split("/").pop());
   };
   return (
-    <button className="btn mx-1  btn-outline-dark p-1" onClick={downloadFile}>
+    <button className="btn m-1  btn-outline-dark p-1" onClick={downloadFile}>
       Download Our Machines Memo
     </button>
   );
